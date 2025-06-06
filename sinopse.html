@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Matheus Kollmann Deters">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Sinopse do filme Sinners (2025)">
+    <title>Sinners - Sinopse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body data-bs-theme="dark">
+
+<header>
+    <div class="bg-dark py-1">
+    </div>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-body-tertiary" style="top: 8px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="sinopse.html">
+                <img src="img/logosinners.jpg" alt="Sinners Fan Site" style="width: 150px;  padding-left: 5px;" class="rounded">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuHamburguer" aria-controls="menuHamburguer" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuHamburguer">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sinopse.html">Sinopse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Elenco.html">Elenco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="curiosidades.html">Curiosidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trilhasonora.html">Trilha sonora</a>
+                    </li>
+                    <li class="nav-item">
+					<a class="nav-link" data-bs-toggle="offcanvas" href="#exemplooffcanvas" role="button"
+					aria-controls="offcanvasExample">Contato</a>
+					</li>
+                </ul>
+                <span class="navbar-text px-3 py-2 text-danger">
+                    Bem vindo ao Sinners Fã clube
+                </span>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container pt-5 mt-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold text-uppercase text-danger">Sinopse</h1>
+                <p class="lead text-white-50 mt-3">
+                    Tentando deixar suas vidas problemáticas para trás, dois irmãos gêmeos retornam à sua cidade natal para recomeçar, apenas para descobrir que um mal ainda maior está esperando para recebê-los de volta.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-8">
+                <img src="img/sinnersposter.jpg" class="img-fluid rounded shadow-lg" alt="Pôster do filme Sinners">
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="exemplooffcanvas" aria-labelledby="exemplooffcanvas">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasRightLabel">Fale Conosco</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<div class="offcanvas-body">
+        <p>Tem alguma dúvida, sugestão ou quer apenas conversar sobre o filme? Preencha o formulário abaixo!</p>
+        <form>
+            <div class="mb-3">
+                <label for="contactName" class="form-label">Seu Nome:</label>
+                <input type="text" class="form-control" id="contactName" name="Nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="contactEmail" class="form-label">Seu E-mail:</label>
+                <input type="email" class="form-control" id="contactEmail" name="Email" required>
+            </div>
+            <div class="mb-3">
+                <label for="contactSubject" class="form-label">Assunto:</label>
+                <input type="text" class="form-control" id="contactSubject" name="Assunto" required>
+            </div>
+            <div class="mb-3">
+                <label for="contactMessage" class="form-label">Sua Mensagem:</label>
+                <textarea class="form-control" id="contactMessage" name="Mensagem" rows="6" required></textarea>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-danger">Enviar Mensagem</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!--Biblioteca Popper - Adiciona popups e alertas personalizados-->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<!--Fim Biblioteca Popper-->
+
+	<!--Java Script do Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+		integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+		crossorigin="anonymous"></script>
+	<!--Fom do JS do Bootstrap-->
+
+	
+	<script>
+		//Script para acionar Popover - Conforme documentação do Bootstrap
+		var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+		var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+			return new bootstrap.Popover(popoverTriggerEl)
+		})
+	</script>
+</body>
+</html>
